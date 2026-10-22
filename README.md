@@ -37,15 +37,15 @@ Metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
 Results
 Regression
 Metric	Score
-R²	add score
-MAE	add score
-MSE	add score
+R² score
+MAE	score
+MSE	score
 Classification
 Metric	Score
-Accuracy	add score
-Precision	add score
-Recall	add score
-F1-Score	add score
+Accuracy score
+Precision	score
+Recall score
+F1-Score score
 Key Findings:
 The main finding was that the customer financial variables contained enough signal for Random Forest to make fairly strong predictions, but the classification performance wasn't uniform across risk categories. The model was very good at identifying Low-risk customers and reasonably good at identifying High-risk customers, but it struggled with Medium-risk customers. So although the overall accuracy was about 96%, looking at the class-level recall showed us that accuracy was somewhat misleading because the dataset was dominated by Low-risk customers. From a business perspective, that tells me that improving detection of the less represented and more ambiguous risk categories would be more valuable than simply optimizing overall accuracy.
 
